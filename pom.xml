@@ -16,11 +16,11 @@
     <maven.compiler.target>1.6</maven.compiler.target> 
    </properties>
   
-<distributionManagement>
+  <distributionManagement>
         <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/myartifacts/</url>
-</distributionManagement>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
